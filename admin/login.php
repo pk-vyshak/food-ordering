@@ -6,18 +6,11 @@
         <link rel="stylesheet" href="../css/admin.css">
     </head>
 <style>
-.login-admin {
-    border-radius:10px;
-    background-color: var(--clr-blue);
-    width: 20%;
-    margin: 10% auto;
-    padding: 2%;
-}
+
 
 </style>
     <body>
-        
-        <div class="login-admin">
+        <div class="login">
             <h1 class="text-center">Login</h1>
             <br><br>
 
@@ -38,11 +31,11 @@
 
             <!-- Login Form Starts HEre -->
             <form action="" method="POST" class="text-center">
-            Username: <br>
-            <input type="text" name="username" placeholder="Enter Username"><br><br>
+            <label for="uname">Enter username</label>
+            <input type="text" name="username" id = "uname" class="frm-field-primary"><br><br>
 
-            Password: <br>
-            <input type="password" name="password" placeholder="Enter Password"><br><br>
+            <label for="pwd">Enter password</label>
+            <input type="password" id="pwd" name="password" class="frm-field-primary"><br><br>
 
             <input type="submit" name="submit" value="Login" class="btn-primary">
             <br><br>

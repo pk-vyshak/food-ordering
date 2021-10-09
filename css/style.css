@@ -12,9 +12,11 @@
   width: 100%;
 }
 .img-curve {
-  border-radius: 15px;
+  border-radius: 10px;
 }
-
+.img-logo {
+  width: 45%;
+}
 .text-right {
   text-align: right;
 }
@@ -91,7 +93,7 @@ fieldset {
 /* CSSS for navbar section */
 
 .logo {
-  width: 10%;
+  width: 30%;
   float: left;
 }
 .menu {
@@ -114,6 +116,7 @@ fieldset {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  opacity: 0.9;
   padding: 7% 0;
 }
 
@@ -231,5 +234,4 @@ fieldset {
   .order {
     width: 100%;
   }
-  
 }
